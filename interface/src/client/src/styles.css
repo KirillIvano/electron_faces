@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+html, body {
+    height: 100vh;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.select-btn {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #eeeeee;
+}
+.select-btn:active {
+    background-color: #cccccc;
+}
+
+table thead {
+    background: #fefefe;
+}
+
+table td {
+    min-width: 100px;
+    padding: 16px;
+}
